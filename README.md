@@ -14,7 +14,7 @@ This is a JavaScript code that automates the process of completing the daily sea
 - Clone or download this repository to your local machine.
 
 ### Usage
-- Double-click the run.bat file to execute the script.
+- Double-click the script.cmd file to execute the script.
 
 The script will open 35 tabs in the Microsoft Edge browser and perform a search on Bing on each tab, using the search terms in the array.
 
