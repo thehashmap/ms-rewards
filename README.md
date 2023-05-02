@@ -10,7 +10,7 @@ This is a JavaScript code that automates the process of completing the daily sea
 ### Installation
 
 - Install Node.js from the official website.
-- Install Microsoft Edge from the official website.
+- Install Microsoft Edge from the official website and sign-up or login to your account.
 - Clone or download this repository to your local machine.
 
 ### Usage
