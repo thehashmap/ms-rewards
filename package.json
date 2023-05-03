@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "child_process": "^1.0.2",
-    "wd": "^1.14.0"
+    "child_process": "^1.0.2"
   }
 }

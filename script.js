@@ -40,6 +40,15 @@ const words = [
   "kangaroo",
 ];
 
-words.forEach((word) => {
-  exec(`start microsoft-edge:https://www.bing.com/search?q=${word}`);
-});
+async function openTabs() {
+  for (const word of words) {
+    await new Promise((resolve) => setTimeout(resolve, 1000)); // wait for 1 second
+    exec(`start microsoft-edge:https://www.bing.com/search?q=${word}`);
+  }
+}
+
+async function main() {
+  await openTabs();
+}
+
+main();
